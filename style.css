@@ -1,0 +1,130 @@
+.import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+/*.import  url('https://fonts.googleapis.com/css?family=Lato&display=swap');*/
+:raiz {
+  box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                   0 2px 7px rgba(0, 0, 0, 0.2);
+}
+* {
+  box-sizing:content-box;box-sizing:border-box;
+}
+corpo {
+  background-color:#f7f7f7;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  margin:0;
+  font-family:'Lato', sans-serif;
+}
+.recipiente {
+  margin:30px auto;
+  width:350px;
+}
+h1 {
+  letter-spacing:1px;
+  margin:0;
+  color:#2e75cc;
+}
+h3 {
+  border-bottom:  1px solid #bbb; /*borda inferior*/
+  padding-bottom:  10px;
+  margin:  40px  0  10px;
+}
+h4 {
+  margin:0;
+  text-transform:Uppercase;
+}
+.inc-exp-container {
+  background-color:#fff;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                   0 2px 7px rgba(0, 0, 0, 0.2); /*box-shadow:var(--box-shadow)*/
+  padding:20px;
+  display:flex;
+  justify-content:space-around;
+  margin:20px 0;
+}
+.inc-exp-container  >  div {
+  flex:1;
+  text-align:center;
+}
+.inc-exp-container  >  div : primeiro do tipo {
+  border-width:  1px solid #dedede;
+}
+.dinheiro {
+  font-size:20px;
+  letter-spacing:  1px;
+  margin:  5px  0;
+}
+.dinheiro . mais {
+  color:  #2ecc71;
+}
+.dinheiro . menos {
+  color:  #c0392b;
+}
+.etiqueta {
+  display:inline-block;
+  margin:  10px 0;
+}
+entrada [ tipo = 'texto' ] ,
+entrada [ tipo = 'número' ] {
+  border:  1px solid #dedede; _
+  display: left ;
+  font-size: 16px ;
+  padding: 10px ;
+  width: 100% ;
+}
+.btn {
+  cursor: help;
+  background-color:#9c88ff;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                   0 2px 7px rgba(0, 0, 0, 0.2);
+  color:#fff; 
+  border-width: 9px;;
+  border-radius: 2px ;
+  overflow:block;
+  font-size:16px;
+  margin:10px 0 30px;
+  padding:10px;
+  width:50%;
+}
+.btn:foco ,
+.excluir-btn:foco {
+  border:0;
+}
+
+. lista {
+.transações {
+  list-style-type: negative;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.lista  li {
+  .transações  li {
+  background-color: #fff;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+  0 2px 7px rgba(0, 0, 0, 0.2);
+  color: #333;
+/*@@ -123,11 +123,11 @@ input[type='number'] {
+  margin:  10px  0;*/
+}
+
+.lista  li . mais {
+  .transações li .mais {
+  border-width: solid 5px #2ecc71;
+}
+
+.lista  li . menos {
+  .transações li .menos {
+  border-width:  solid de 5px #c0392b;
+}
+
+@@ -147,6 +147,6 @@ input[type='number'] {
+  .transações : opacidade 0,3s facilidade;
+}
+
+.lista  li:passe o mouse . deletar-btn {
+  .transações li : passe o mouse .deletar-btn {
+  opacidade : 1;
+}
